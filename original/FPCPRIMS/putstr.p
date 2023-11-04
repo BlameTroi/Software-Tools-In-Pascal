@@ -1,5 +1,6 @@
 { Copyright (C) 1981 by Bell Laboratories, Inc., and Whitesmiths Ltd. }
-{ putstr (UCSD) -- put out string on file }
+{ Copyright 2023 by Troy Brumley, all rights reserved. }
+{ putstr (fpc win) -- put out string on file }
 procedure putstr (str : xstring; fd : filedesc);
 var
   i : integer;

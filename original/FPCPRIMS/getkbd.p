@@ -1,4 +1,5 @@
 { Copyright (C) 1981 by Bell Laboratories, Inc., and Whitesmiths Ltd. }
+{ Copyright 2023 by Troy Brumley, all rights reserved. }
 { getkbd -- read character from keyboard }
 function getkbd (var c : character) : character;
 var

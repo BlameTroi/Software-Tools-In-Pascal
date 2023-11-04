@@ -1,4 +1,5 @@
 { Copyright (C) 1981 by Bell Laboratories, Inc., and Whitesmiths Ltd. }
+{ Copyright 2023 by Troy Brumley, all rights reserved. }
 { prims -- external declarations for UCSD primitives }
 program xxx (input, output);
 { Copyright (c) 1981 by Bell Telephone Laboratories, Inc.

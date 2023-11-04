@@ -1,5 +1,6 @@
 { Copyright (C) 1981 by Bell Laboratories, Inc., and Whitesmiths Ltd. }
-{ open (UCSD) -- open a file for reading or writing }
+{ Copyright 2023 by Troy Brumley, all rights reserved. }
+{ open (fpc win) -- open a file for reading or writing }
 (*$I-*)
 function open (var name : xstring; mode : integer) : filedesc;
 var

@@ -1,5 +1,6 @@
 { Copyright (C) 1981 by Bell Laboratories, Inc., and Whitesmiths Ltd. }
-{ putcf (UCSD) -- put a single character on fd }
+{ Copyright 2023 by Troy Brumley, all rights reserved. }
+{ putcf (fpc win) -- put a single character on fd }
 procedure putcf (c : character; fd : filedesc);
 begin
   case (cmdfil[fd]) of

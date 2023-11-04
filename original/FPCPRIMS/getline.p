@@ -1,4 +1,5 @@
 { Copyright (C) 1981 by Bell Laboratories, Inc., and Whitesmiths Ltd. }
+{ Copyright 2023 by Troy Brumley, all rights reserved. }
 { getline (UCSD) -- get a line from file }
 function getline (var str : xstring; fd : filedesc;
     size : integer) : boolean;

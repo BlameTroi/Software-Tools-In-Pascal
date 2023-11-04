@@ -1,5 +1,6 @@
 { Copyright (C) 1981 by Bell Laboratories, Inc., and Whitesmiths Ltd. }
-{ initcmd (UCSD) -- read command line and redirect files }
+{ Copyright 2023 by Troy Brumley, all rights reserved. }
+{ initcmd (fpc win) -- read command line and redirect files }
 procedure initcmd;
 var
   fd : filedesc;
@@ -17,6 +18,8 @@ begin
   for ft := FIL1 to FIL4 do
     cmdopen[ft] := false;
   kbdn := 0;
+  { txb: parsing from a command line on stdin, change
+        to use paramstr and paramcount }
   if (not getline(cmdlin, STDIN, MAXSTR)) then
     exit(program);
   cmdargs := 0;
